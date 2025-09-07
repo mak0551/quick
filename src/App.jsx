@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { LuSettings } from "react-icons/lu";
+import quick from "../public/quick.jpg";
 
 function App() {
   // State for user data
@@ -82,7 +83,7 @@ function App() {
           <LuSettings size={28} />
         </button>
       </div>
-      <img src="../quick.jpg" alt="Quick" className="w-full mt-6" />
+      <img src={quick} alt="Quick" className="w-full mt-6" />
     </div>
   );
 }
